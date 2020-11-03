@@ -1,0 +1,10 @@
+As a user I’d like to know how many movies the Top10 directors in the data set produced. 
+
+sqlite3 movies.db "SELECT Director, count(Director) 
+FROM Movie_Movies
+GROUP by Director
+ORDER BY count(Director) DESC
+LIMIT 10;"
+
+
+
