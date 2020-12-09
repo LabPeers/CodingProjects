@@ -23,8 +23,5 @@ loadRatesToDB_async_postgresql.py
 dummy_data_converter.py
 ```
 
-## Contributing
-This is a project for a technical interview.
-
 ## License
 No license.
